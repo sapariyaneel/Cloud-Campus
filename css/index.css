@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    transition: all linear 0.2s;
+    scroll-behavior: smooth;
+    scroll-padding-top: 74px;
+}
+
+.navbar-prsnl-name{
+    /* font-variant: small-caps; */
+    font-family: "Pacifico", cursive;
+    font-weight: lighter;
+    font-style: normal;      
+    /* background-color: #009c9c; */
+}
+.navbar-collapse ul li{
+    margin-left: 10px;
+    font-weight: 600;
+    font-size: 20px;
+}
+.active{
+    color: white !important;
+}
+.intro-para{
+    text-align: justify;
+    text-align-last: center;
+    line-height: 28px;
+    width: 85%;
+    font-size: 18px;
+    margin-top: 28px;
+}
+.tagline{
+    color: #18407c;
+    font-weight: 600;
+}
+.courses-card{
+    width: 90%;
+}
+.line{
+    width: 50%;
+}
+.course-info{
+    text-align: justify;
+    text-align-last: center;
+}
+.col{
+    cursor: pointer;
+}
+.courses-card-i:hover{
+    scale: 0.95;
+}
+.diploma-section{
+    width: 83%;
+}
+.list-pvt-ul li{
+    color: grey;
+    line-height: 30px;
+    font-size: 19px;
+}
+.admission-section{
+    width: 83%;
+}
+.faq-section{
+    width: 83%;
+}
+.about-section{
+    width: 83%;
+}
+.about-para{
+    text-align: justify;
+    text-align-last: start;
+    line-height: 28px;
+    margin-top: 28px;
+}
+.line-about{
+    width: 10%;
+    border: 1px solid black;
+}
+.contact-section{
+    width: 83%;
+}
+.contact-section form{
+    width: 90%;
+}
+.btn-pvt{
+    width: 100%;
+}
+.footer-section{
+    background-color: #18253f;
+    color: white;
+}
+.footer-ul li{
+    padding-bottom: 8px;
+    color: rgb(207, 207, 207);
+    font-size: 16px;
+}
+.footer-ul-3 li{
+    padding-bottom: 18px;
+    color: rgb(207, 207, 207);
+    font-size: 16px;
+}
+.newsletter input[type="email"] {
+    padding: 10px;
+    border: none;
+    border-radius: 2px;
+    width: 65%;
+}
+.newsletter button {
+    padding: 10px;
+    border: none;
+    border-radius: 2px;
+    background-color: #e74c3c;
+    color: white;
+    cursor: pointer;
+}
+.copyright{
+    background-color: #203255;
+    color: white;
+}
